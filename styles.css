@@ -1,0 +1,28 @@
+#create-account {
+    background-color: #596D48;
+    color: white;
+}
+
+input[type="password"]:user-invalid {
+    border: 1.5px solid red;
+}
+
+input:focus {
+    border: 1.5px solid blue;
+    box-shadow: 0 2px 8px rgba(0, 100, 255, 0.18);
+}
+
+#login {
+    color: #596D48;
+    border: none;
+    background: none;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 0;
+}
+
+form {
+    border: 2px solid black;
+}
