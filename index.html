@@ -17,8 +17,22 @@
     </div>
     <div class="form-container">
         <form>
-            <legend>Let's do this!</legend>
+            <div class="text-container">
+                <div class="text-children">
+                    <p>
+                        This is not a real online service! You know you need something like this in your
+                        life to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+                    </p>
+                    <p>
+                        You <i>know</i> you want to.
+                    </p>
+                </div>
+             
+            </div>
+            
             <fieldset id="fieldset-info">
+            <legend>Let's do this!</legend>
+
                 <div class="name-row">
                     <div class="first-name">
                         <label for="firstname">First Name*</label>
@@ -47,14 +61,12 @@
                 <div class="password-row">
                     <div class="password">
                         <label for="password">Password*</label>
-                        <input type="password" id="password" name="password"
-                            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}" required />
+                        <input type="password" id="password" name="password" required />
                     </div>
         
                     <div class="confirm-password">
                         <label for="confirm-password">Confirm Password*</label>
-                        <input type="password" id="confirm-password" name="confirm-password"
-                            pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}" required />
+                        <input type="password" id="confirm-password" name="confirm-password" required />
                     </div>
         
             </fieldset>
